@@ -12,7 +12,7 @@ The project currently targets the patch 4356 Conquer.exe. If you are interested 
 # Files
 Inside the `bin/Debug` or `bin/Release` folder, the following files will need to be copied to your Conquer Online installation directory:
 
-`ConquerPlayground.dll` - the C# DLL that contains all the "game logic" (not much so far).  
+`ConquerPlayground.dll` - the DLL that contains all the "game logic" (not much so far).  
 `Launcher.exe` - responsible for launching Conquer.exe and injecting the DLL.  
 `MinHook.x86.dll` - the native MinHook library.  
 `MinHookManaged.dll` - the thick .NET binding for the MinHook library.
